@@ -1,16 +1,17 @@
 
-.container-1, .container-2, .container-3 {
+.container-1, .container-2, .container-3, .container-4 {
     border: 1px solid black;
     text-align: center;
 }
 
-.flex-box-1, .flex-box-container-2, .flex-box-rps {
+.flex-box-1, .flex-box-container-2, .flex-box-rps, .flex-box-pick-color {
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     flex-wrap: wrap;
     border: 1px solid black;
     padding: 10px;
+    align-items: center;
 }
 
 .flex-box-1 div {

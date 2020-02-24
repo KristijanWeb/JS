@@ -29,7 +29,7 @@
         <div class="container-2">
             <h2>Challenge 2: Space Generator</h2>
 
-            <button class="btn btn-success" id="space-generator" onclick="generateSpace()">Generate Space</button>
+            <button class="btn btn-success mb-2" id="space-generator" onclick="generateSpace()">Generate Space</button>
 
             <div class="flex-box-container-2" id="flex-space-gen">
             </div>
@@ -42,6 +42,26 @@
                 <img id="rock" src="img/rock.png" alt="rock..." height="150" width="150" onclick="rpsGame(this)">
                 <img id="paper" src="img/paper.png" alt="paper..." height="150" width="150" onclick="rpsGame(this)">
                 <img id="scissors" src="img/scissors.png" alt="scissors..." height="150" width="150" onclick="rpsGame(this)">
+            </div>
+        </div>
+
+        <div class="container-4">
+            <h2 id="change-my-color">Challenge 4: Change the Color of All Buttons!</h2>
+
+            <div class="flex-box-pick-color">
+                <form action="">
+                    <select name="backdrop" id="background" onchange="buttonColorChange(this)">
+                        <option value="random">Random</option>
+                        <option value="red">Red</option>
+                        <option value="green">Green</option>
+                        <option value="reset">Reset</option>
+                        <option value="blue">Blue</option>
+                    </select>
+                </form>
+                <button class="btn btn-primary">Wee!</button>
+                <button class="btn btn-danger">Yahoo!</button>
+                <button class="btn btn-warning">Google!</button>
+                <button class="btn btn-success">Facebook!</button>
             </div>
         </div>
     </div>
