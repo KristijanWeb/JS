@@ -144,7 +144,7 @@ function buttonsGreen(){
     }
 }
 
-// Blue BackgroundColorr
+// Blue BackgroundColor
 function buttonsBlue(){
     for(let i = 0; i < all_buttons.length; i++){
         all_buttons[i].classList.remove(all_buttons[i].classList[1]);
@@ -152,7 +152,7 @@ function buttonsBlue(){
     }
 }
 
-// Reset BackgroundColorr
+// Reset BackgroundColor
 function buttonColorReset(){
     for(let i = 0; i < all_buttons.length; i++){
         all_buttons[i].classList.remove(all_buttons[i].classList[1]);
