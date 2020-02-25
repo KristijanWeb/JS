@@ -100,7 +100,7 @@ function rpsFrontEnd(humanImageChoise, botImageChoise, finalMessage){
 }
 
 
-// ***************** Challenge 4 ************************
+// **************** Challenge 4 ************************
 var all_buttons = document.getElementsByTagName('button');
 var copyAllButtons = [];
 
