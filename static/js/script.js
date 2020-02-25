@@ -70,7 +70,7 @@ function finalMessage([yourScore, computerScore]){
         return {'message': 'You tied!', 'color': 'yellow'};
     }
     else {
-        return {'message': 'You won!', 'color': 'green'};
+        return {'message': 'You woon!', 'color': 'green'};
     }
 }
 
